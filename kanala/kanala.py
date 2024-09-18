@@ -91,8 +91,8 @@ parser.add_argument('-e','--entry',action="store_true",help='Display kanji full 
 parser.add_argument('-E','--wentry',action="store_true",help='Display matched word only')
 parser.add_argument('-D','--debugdebug',action="store_true",help='special debug mode .. to be removed')
 parser.add_argument('-d','--debug',action="store_true",help='debug mode')
-parser.add_argument('-j','--joyo',nargs="*",help='print joyo kanji, if other args they\'ll be matched against joyo list')
-parser.add_argument('-J','--joyocheck',action="store_true",help='Check joyo not in deck')
+parser.add_argument('-j','--joyo',nargs="*",                  help='without arg display Joyo list, with arg will say if kanji is joyo or not')
+parser.add_argument('-J','--joyocheck',action="store_true",   help='Check joyo not in deck')
 parser.add_argument('-K','--nonjoyocheck',action="store_true",help='Check non joyo deck')
 parser.add_argument('-f','--find',action="store_true",help='For list of kanji check words in vocabulary list (as -w option).\nIt discards non joyo, word with chars already in the list and those with bad frequency. Display full result, can add -l option to restrict to a single list of words. Only 2 kanjis word are selected')
 parser.add_argument('-l','--list',action="store_true",help='Use list format (short) for output. usable in word option')
@@ -300,7 +300,7 @@ class ankiKanjiDeck():
       print("Total lines : {}".format(self.totallines))
       exit()
  
-    if args.joyocheck == True:
+    if args.joyocheck or args.nonjoyocheck :
       #虞
       itaiji=[('頬','頰'),('剥','剝'),('𠮟','叱'),('填','塡'),('狭','挟')]
       founditaiji=""
@@ -319,7 +319,14 @@ class ankiKanjiDeck():
         print("end allji {}".format(ctr))
         #exit()
       ctr=0
-      for i in self.joyoSet-self.allJiSet:
+      final_list=[]
+      if args.joyocheck :
+        for i in self.joyoSet-self.allJiSet:
+          final_list.append(i)
+      if args.nonjoyocheck :
+        for i in self.allJiSet-self.joyoSet:
+          final_list.append(i)
+      for i in final_list:
         for el in itaiji:
           if i in el:
             founditaiji+=i
@@ -331,7 +338,8 @@ class ankiKanjiDeck():
         print(i,end='')
         ctr+=1
       print("\nNumber of chars {}".format(ctr))
-      print("異体字 : {}".format(founditaiji))
+      if args.joyocheck :
+        print("異体字 : {}".format(founditaiji))
       exit()
 
     if self.remain == []:

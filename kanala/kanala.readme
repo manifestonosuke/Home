@@ -28,15 +28,15 @@ Shows a word or jukugo, some time with a hint in parenthesis
 
 ### Back
 
-For each kanji there are 2 lines.
+For each kanji there are 2 lines (kanji 1 壱 and kanji 2 弐).
 
-1. The kanji itself with in parenthesis bushu and then some kanji compond to help remember/write kanji separated with a pipe (|) some time there are 2 pipe, the latest being with compond without specific meaning but to help decompose the kanji. The main difference is that the compond can help to remember the reading as the compound without meaning are just stroke.
+- The kanji itself with in parenthesis bushu and then some kanji compond to help remember/write kanji separated with a pipe (|) some time there are 2 pipe, the latest being with compond without specific meaning but to help decompose the kanji. The main difference is that the compond can help to remember the reading as the compound without meaning are just stroke.
 
 >   紅 （糸｜工）
 
 Above kanji has 糸 bushu and contains also 工. For this one the ON reading is こう which is a reading of 工. Then the bushu is 糸 which means a string.
 
-2. The second line for each kanji give example words for all joyo reading (and only joyo readings).  The order is ON qnd then KUN reading. 
+- The second line for each kanji give example words for all joyo reading (and only joyo readings).  The order is ON qnd then KUN reading. 
 
    For ON reading if the reading is different from the search one, the reading will be written in parenthesis. For KUN reading the reading will be first and the kanji will be in paranthesis.
 
@@ -44,7 +44,9 @@ Above kanji has 糸 bushu and contains also 工. For this one the ON reading is 
 
 The 2 first word reading for 紅 is こう so the additional words have no reading (it reads **こう**よう and **こう**ちゃ)　and let you try reading others kanjis. Then comes 深紅 with hiragana reading in parenthesis , it means it is additional ON reading (くう).  The next word is in hiragana followed by kanji in parenthesis which means it's a KUN reading. 口紅 which reads くちべに is one example. The last word is another KUN reading.
 
+### Kanji description 
 
+In most of the cases in the parenthesis after kanji there is ( bushu | other part ). For the other part I tried to keep other kanji to describe the kanji. In above sample 潮 is 水 and 朝. It could be further decomposed in 氵龺月 or 氵十日十月 but it is simple enough to recognise and remember the compounds. 
 
 # Usage
 
@@ -64,7 +66,7 @@ If you do remind the front word make sure you remember all readings, have a look
 
 ## Non joyo
 
-To try to limit kanji repeatition in front field and also because some common words are sometime build with non joyo kanji, I use add the following like of kanjis which are not joyo.
+To try to limit kanji repetition in front field and also because some common words are sometime build with non joyo kanji, I use add the following like of kanjis which are not joyo.
 
 > 怯萌塵絆拗苑蒙晦蘭煉耽洩
 
@@ -91,8 +93,6 @@ The kanjis which shows different writing between hand written and printed (font)
 
 I will add the terrific 虞 which shows different shape with the same unicode ... I did not really find the good way to show the different writtings. The orginal kanji should have  虍＋呉 (which could help for the "non joyo" reading) but is usually shown as 吴.
 
-
-
 # Why joyo
 
 Kanji system is very old and there are too many readings to remind, although joyo are not always really common and some common kanji are not joyo, it is more than enough to exercise your Japanese writing ability. Even if some joyo are practically never used (朕) since WW2, it is still a good reference. Note that the latest update of the joyo kanjis (2010) contains ken (県) names. It is common that some kanjis are only used there. 
@@ -101,6 +101,12 @@ Even joyo kanjis have non joyo readings, which are usually listed in base kanji 
 
 Full explanation of the logic behind joyo kanji + list (in japanese) here : https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyo_20101130.pdf
 The 3rd section (3 付表) which list specific reading of kanjis is not used in this deck (like 明日　あす）.
+
+# Ressources 
+I love https://kanjiapi.dev/ which provide an API to query basic kanji properties.
+The https://kanji.jitenon.jp/ was a great help for looking up the kanji  structures
+Center of language research 言語資源開発センターwas a great help for vocabulary database as well as other ressources
+The https://www.bunka.go.jp site is also great to learn more about kanji as writting system. Note to the kanji frequency list : https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/nihongo/nihongo_107/pdf/93240301_06.pdf
 
 # Errata
 
