@@ -1,12 +1,16 @@
 # Purpose
 
-This set has been build to practice Japanese joyo kanjis and cover all 2147 entries in the minimum number of cards. The deck has 1216 cards covering all joyo kanjis plus a few non joyo. Most of the kanjis are present only in 1 card but some are present on more than 1. There are very few exception with only 1 kanji per card (some kanji have no jukugo or can not be combined).
+This deck hqs been build to practive joyo kanji writting using 2 kanjis per card. It covers all 2147 joyo (plus a fez non joyo) in 1216 cards.
+Most of the kanjis are present only in 1 card but some are present on more than 1. There are very few exception with only 1 kanji per card,  some kanji have no jukugo, can not be combined or combination are so rare reading that it was not worth to use them.
+
+
+In short all joyo in 1216 cards to mainly practice writing but also have a detailled look on keys/componds and common words for each kanji. The deck uses only japanese.
 
 # Card Structure
 
-Each entry is a word of 2 kanjis on the front and the back has details on the kanji structure (bushu and compounds) as well as a list of words both both on and kun yomi. It covers only joyo reading with few exception on common words and readings. The front entry is usually based on ON yomi but there are exceptions. There is also a hint phrase (in parenthesis) to precise the word to guess (there are many hiragana homonyms).
+Each entry is a word of 2 kanjis on the front and the back has details on the kanji structure (bushu and compounds) as well as a list of words both both on and kun yomi. It covers only joyo reading with few exception (usually specified as such in parenthesis). The front entry is usually based on ON yomi when available. There is also a hint phrase (in parenthesis) to better understand which word it is about (there are many hiragana homonyms).
 
-Some time the front entry has more than 2 kanjis, in this case, only the first 2 are to guess (and explained on the back)
+Some time the front entry has more than 2 kanjis, in this case, only the first 2 are to guess, if it is not the 2 first non key kanji will be in parenthesis.
 
 # Sample
 
@@ -17,6 +21,7 @@ Some time the front entry has more than 2 kanjis, in this case, only the first 2
 | 例壱   | 紅葉　紅茶　べに、くれない（紅）　口紅           |
 | 漢字弐 | 潮（氵｜朝）                                     |
 | 例弐   | 潮流　風潮　満潮　潮位　しお（潮）上げ潮　引き潮 |
+
 
 ## Explanations
 
@@ -36,13 +41,13 @@ For each kanji there are 2 lines (kanji 1 壱 and kanji 2 弐).
 
 Above kanji has 糸 bushu and contains also 工. For this one the ON reading is こう which is a reading of 工. Then the bushu is 糸 which means a string.
 
-- The second line for each kanji give example words for all joyo reading (and only joyo readings).  The order is ON qnd then KUN reading. 
+- The second line for each kanji give example words for all joyo reading (exception would be in parenthesis with starting with 外).  The order is ON and then KUN reading. 
 
    For ON reading if the reading is different from the search one, the reading will be written in parenthesis. For KUN reading the reading will be first and the kanji will be in paranthesis.
 
 > 紅葉　紅茶　深紅（しんくう）　べに（紅）口紅　くれない（紅）
 
-The 2 first word reading for 紅 is こう so the additional words have no reading (it reads **こう**よう and **こう**ちゃ)　and let you try reading others kanjis. Then comes 深紅 with hiragana reading in parenthesis , it means it is additional ON reading (くう).  The next word is in hiragana followed by kanji in parenthesis which means it's a KUN reading. 口紅 which reads くちべに is one example. The last word is another KUN reading.
+The 2 first word reading for 紅 is こう so the additional words have no reading (it reads **こう**よう and **こう**ちゃ)　and let you try reading others kanjis. Then comes 深紅 with hiragana reading in parenthesis , it means it is additional ON reading (くう).  The next word is in hiragana followed by kanji in parenthesis which means it's a KUN reading. 口紅 which reads くちべに is one example. くちべに being an easy reading and matching previous KUN yomi, the reading is not included. The last word is another KUN reading.
 
 ### Kanji description 
 
@@ -62,7 +67,7 @@ If you do remind the front word make sure you remember all readings, have a look
 
 ## Vocabulary
 
- I tried to use the most common readings, sometime it is not really possible because it is rare or have no other reading. For some words I use non joyo kanjis to make the front entry.
+ I tried to use the most common readings, sometime it is not really possible because it is rare or have no other reading. For some words I use non joyo kanjis to make the front entry if those word are common enough (like 漏洩, 洩 being non joyo).
 
 ## Non joyo
 
@@ -78,16 +83,16 @@ The bushu should all be correct but some kanji have more than one. For this one 
 
 ## Strike order
 
-Strikes counts/order and other other code numbers are not included. you need to know the logic of stroke order and if you have any doubt check any strike order site.  
+Strikes counts/order and other other code numbers are not included. you need to know the logic of stroke order and if you have any doubt check any strike order site. This is quite easy to find kanji strike order guide on the internet (see Ressources) 
 
-Most of the kanji compound comes from this (wonderful) site (jp only)  : https://kanji.jitenon.jp/ 
-You can just copy/paste the kanji here to get the strike order 
+To understand the rules [wikipedia](<https://ja.wikipedia.org/wiki/%E7%AD%86%E9%A0%86) is probably the easiest, the [english page](https://en.wikipedia.org/wiki/Stroke_order) covers chinese writting which differs a bit.
+
 
 ## Katsuji/tegaki
 
 Katsuji (活字) is how are called the kanji shape when printed (originally now for computer fonts as well). Sometime it is different from the hand written one. I tried to keep the handwritten on on the cards and add the katsuji in the vocabulary comments.
 
-The kanjis which shows different writing between hand written and printed (font) are :
+The kanjis which shows difference writing between hand written and printed (font) are :
 
 > 剥𠮟填挟頰
 
@@ -97,18 +102,21 @@ I will add the terrific 虞 which shows different shape with the same unicode ..
 
 Kanji system is very old and there are too many readings to remind, although joyo are not always really common and some common kanji are not joyo, it is more than enough to exercise your Japanese writing ability. Even if some joyo are practically never used (朕) since WW2, it is still a good reference. Note that the latest update of the joyo kanjis (2010) contains ken (県) names. It is common that some kanjis are only used there. 
 
-Even joyo kanjis have non joyo readings, which are usually listed in base kanji deck and are probably not worth to remember.
+Even joyo kanjis have non joyo readings, which are usually listed in base kanji deck and are probably not worth to remember. I used only joyo reading or explain in the card. I did not especially cover the **special readings** of the joyo kanjis (in the 付表 list or joyo)
 
-Full explanation of the logic behind joyo kanji + list (in japanese) here : https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyo_20101130.pdf
-The 3rd section (3 付表) which list specific reading of kanjis is not used in this deck (like 明日　あす）.
 
 # Ressources 
+My main (but not unique) source for word frequency is [NINJAL or 言語資源開発センター](https://clrd.ninjal.ac.jp/bccwj/en/freq-list.html).
 I love https://kanjiapi.dev/ which provide an API to query basic kanji properties.
-The https://kanji.jitenon.jp/ was a great help for looking up the kanji  structures
-Center of language research 言語資源開発センターwas a great help for vocabulary database as well as other ressources
-The https://www.bunka.go.jp site is also great to learn more about kanji as writting system. Note to the kanji frequency list : https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/nihongo/nihongo_107/pdf/93240301_06.pdf
+Most of the kanji compound comes from the (wonderful) site [jitenon](https://kanji.jitenon.jp/), there is also strike order and all different readings (joyo/non joyo). 
+Full explanation of the logic behind joyo kanji + list (in japanese) in the great [bunka.org site](here : https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyo_20101130.pdf)
+The 3rd section (3 付表) which list specific reading of kanjis is not really covered in this deck (like 明日　あす).
+Bunka.org also contains a [kanji frequency table](https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/nihongo/nihongo_107/pdf/93240301_06.pdf)
 
-# Errata
+# Dictionary
+When I hit a kanji difficult to remember or figure out the structure, I use to look at the ethymology. I used the wonderful dictionnary of 常用字解［第二版］from 白川静. 
+For the bushu I enjoy lookup in 部首ときあかし辞典 from 円満字二郎. 
 
+# Issues
 I copy and paste various ressources and may have left html code in deck fields. I didn't sanitise all entries and some reading maybe not visible if you use a dark skin for Anki.
 
