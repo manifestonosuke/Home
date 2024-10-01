@@ -1,8 +1,8 @@
 # Purpose
 
-This deck hqs been build to practive joyo kanji writting using 2 kanjis per card. It covers all 2147 joyo (plus a fez non joyo) in 1216 cards.
-Most of the kanjis are present only in 1 card but some are present on more than 1. There are very few exception with only 1 kanji per card,  some kanji have no jukugo, can not be combined or combination are so rare reading that it was not worth to use them.
-
+This deck has been build to practive joyo kanji writing using 2 kanjis per card to cover all set in a minimum of entrie. It covers all 2147 joyo (plus a few non joyo) in 1216 cards.
+Most of the kanjis are present only in 1 card but some are present on more than 1. 
+There are very few exception with only 1 kanji per card,  some kanji have no jukugo, can not be combined or combination are so rare reading that it was not worth to use them.
 
 In short all joyo in 1216 cards to mainly practice writing but also have a detailled look on keys/componds and common words for each kanji. The deck uses only japanese.
 
@@ -48,6 +48,13 @@ Above kanji has 糸 bushu and contains also 工. For this one the ON reading is 
 > 紅葉　紅茶　深紅（しんくう）　べに（紅）口紅　くれない（紅）
 
 The 2 first word reading for 紅 is こう so the additional words have no reading (it reads **こう**よう and **こう**ちゃ)　and let you try reading others kanjis. Then comes 深紅 with hiragana reading in parenthesis , it means it is additional ON reading (くう).  The next word is in hiragana followed by kanji in parenthesis which means it's a KUN reading. 口紅 which reads くちべに is one example. くちべに being an easy reading and matching previous KUN yomi, the reading is not included. The last word is another KUN reading.
+
+About the compound, above sample is very simple but for other kanji the original compound has changed or is difficult to remember. In this case I add hints to write it after the second |. 
+
+> 敷 （攵｜旉｜一由丶方）
+
+The ethimology of 敷く is indeed 攵 (ぼくつくり）+ 旉 which is not used any more and has been slighty simplified where one would write in order 一 then 由 and finally 丶 plus 方 below.
+
 
 ### Kanji description 
 
@@ -120,3 +127,4 @@ For the bushu I enjoy lookup in 部首ときあかし辞典 from 円満字二郎
 # Issues
 I copy and paste various ressources and may have left html code in deck fields. I didn't sanitise all entries and some reading maybe not visible if you use a dark skin for Anki.
 
+The deck is build manually over months and early cards syntax may differ from the latest
